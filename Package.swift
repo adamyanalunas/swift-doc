@@ -13,14 +13,14 @@ let package = Package(
         .library(name: "SwiftDoc", targets: ["SwiftDoc"])
     ],
     dependencies: [
-        .package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax.git", .revision("0.50300.0")),
+        .package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax.git", .exact("0.50300.0")),
         .package(url: "https://github.com/SwiftDocOrg/SwiftSemantics.git", .upToNextMinor(from: "0.3.0")),
         .package(url: "https://github.com/SwiftDocOrg/CommonMark.git", .upToNextMinor(from: "0.5.0")),
         .package(url: "https://github.com/SwiftDocOrg/SwiftMarkup.git", .upToNextMinor(from: "0.3.0")),
         .package(url: "https://github.com/SwiftDocOrg/GraphViz.git", .upToNextMinor(from: "0.4.1")),
         .package(url: "https://github.com/NSHipster/HypertextLiteral.git", .upToNextMinor(from: "0.0.2")),
         .package(url: "https://github.com/SwiftDocOrg/Markup.git", .upToNextMinor(from: "0.1.2")),
-        .package(url: "https://github.com/NSHipster/SwiftSyntaxHighlighter.git", .revision("1.2.2")),
+        .package(url: "https://github.com/NSHipster/SwiftSyntaxHighlighter.git", .exact("1.2.2")),
         .package(url: "https://github.com/apple/swift-argument-parser.git", .upToNextMinor(from: "0.3.2")),
         .package(url: "https://github.com/apple/swift-log.git", .upToNextMinor(from: "1.4.2")),
         .package(name: "LoggingGitHubActions", url: "https://github.com/NSHipster/swift-log-github-actions.git", .upToNextMinor(from: "0.0.1")),
